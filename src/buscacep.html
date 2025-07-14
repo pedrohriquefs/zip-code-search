@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn-icons-png.flaticon.com/512/3083/3083741.png" rel="icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Busca por CEP</title>
+</head>
+<body>
+    <div class="container">
+    <h1>Busca por CEP</h1>
+    <form class="cepForm">
+        <input type="text" id="cepInput" placeholder="Digite o CEP desejado aqui" maxlength="9" required>
+        <span id="error">Por favor, digite apenas números.</span>
+        <p id="cepResponse"></p>
+        <button type="submit" id="findButton">Buscar</button>
+    </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

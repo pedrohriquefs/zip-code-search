@@ -1,0 +1,113 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background: #00a2ff;
+    background: radial-gradient(circle,rgba(0, 162, 255, 1) 1%, rgba(59, 183, 255, 1) 100%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cepForm {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.2);
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 3em;
+    position: fixed;
+    top: 15px;
+    text-shadow: 2px 3px 0px rgba(0, 0, 0, 0.377);
+}
+
+.cepInfoText {
+    font-size: 2.3em;
+}
+
+#cepInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 11px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+#cepInput:focus {
+    outline: none;
+    border-color: #1140a5;
+    border-width: 2px;
+    text-align: left;
+}
+
+#cepInput:not(:placeholder-shown) {
+    outline: none;
+    border-color: #1140a5;
+    border-width: 2px;
+    text-align: left;
+    transition: 1s linear;
+}
+
+#error {
+    color: rgb(0, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    display: none;
+    font-size: 9px;
+    margin-top: 5px;
+}
+
+#findButton {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    position: fixed;
+    bottom: -50px;
+    transition: 1s;
+    outline: none;
+}
+
+#findButton:hover {
+    background-color: rgb(228, 228, 228);
+    transition: 1s;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+li {
+    margin-bottom: 8px;
+    font-size: 13px;
+    text-align: center;
+}
+
+ul {
+    padding: 15px;
+    margin: 0;
+    list-style: none;
+    background-color: #0a314b;
+    border-radius: 15px;
+}
